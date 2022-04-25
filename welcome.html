@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Thank you for installing!</title>
+    <script src="tutorial/welcome-prep.js" defer></script>
+    <script src="URL-prep.js" defer></script>
+    <script src="tutorial/welcome.js" defer></script>
+    <link rel="stylesheet" href="tutorial/welcome-common.css">
+    <link rel="stylesheet" href="tutorial/welcome.css">
+    <meta charset="utf-8" />
+</head>
+
+<body>
+    <header>
+        <h1>Thank you for installing <i data-string="extName"></i>!</h1>
+    </header>
+    <div id="howto">
+        <h2>📚 How to use</h2>
+        <p>
+            1. Go to
+            <a href="https://www.youtube.com/watch?v=fOHNEOfVKKE" target="_blank" rel="noopener noreferrer">
+                <button>your favorite Youtube video</button>
+            </a>.
+        </p>
+        <p>
+            2. Enjoy the experience!
+        </p>
+        <p>
+            Go to
+            <button id="ext-options">options</button>
+            to choose what elements are hidden.
+            <br>
+            You can always find the options in the
+            <img src="tutorial/ext-light.png" class="lightmode">
+            <img src="tutorial/ext-dark.png" class="darkmode">
+            <b> extensions menu </b>
+            in the top right corner of your browser window.
+        </p>
+    </div>
+    <div id="attention">
+        <h2>⚠️ Attention!</h2>
+        <div>
+            <p>
+                For security reasons, this extension cannot work on
+            </p>
+            <ul>
+                <li>extension pages <b>(including this one)</b></li>
+                <li>the Chrome Web Store</li>
+                <li>the browser's settings pages</li>
+            </ul>
+        </div>
+        <div>
+            <p>
+                By default it also does not work in
+            </p>
+            <ul>
+                <li>incognito mode</li>
+                <li>local files</li>
+            </ul>
+            <p>
+                This can be changed by going to the <button id="chrome-settings">extension settings</button> and
+                enabling the appropriate options
+            </p>
+        </div>
+
+    </div>
+    <div id="support">
+        <h2>🤝 Support</h2>
+        <p>
+            If you're enjoying the extension, please consider supporting my work on this and other products by
+            <a href="https://www.buymeacoffee.com/nizioleque" target="_blank" rel="noopener noreferrer">
+                <button>
+                    🍺 Buying me a beer
+                </button>
+            </a>
+            <a class="storeReviewURL" target="_blank" rel="noopener noreferrer">
+                <button>
+                    ⭐ Rating the extension
+                </button>
+            </a>
+            And if you experience any issues, please
+            <a class="bugReportURL" target="_blank">
+                <button class="btn-report">
+                    📧 Send me a bug report
+                </button>
+            </a>
+        </p>
+    </div>
+
+</body>
+
+</html>

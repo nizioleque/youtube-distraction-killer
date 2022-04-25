@@ -1,0 +1,23 @@
+:root {
+    --accent-color: #f00;
+    --header-bg: linear-gradient(180deg, rgba(255,0,0,1) 0%, rgba(255,0,0,0) 100%);
+}
+
+header {
+    box-shadow: none;
+    min-height: 180px;
+}
+
+h1 {
+    bottom: auto;
+    top: 15px;
+}
+
+#attention {
+    display: none;
+}
+
+img {
+    vertical-align: middle;
+    padding: 0 5px;
+}

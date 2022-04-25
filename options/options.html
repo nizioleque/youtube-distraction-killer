@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Document</title>
+
+    <script src="options-common.js" defer></script>
+    <script src="../URL-prep.js" defer></script>
+    <script src="options-config.js" defer></script>
+    <script src="options.js" defer></script>
+    <link rel="stylesheet" href="options-common.css">
+    <link rel="stylesheet" href="options.css">
+    <meta charset="utf-8" />
+
+    <link rel="stylesheet" href="https://use.typekit.net/dat2tzg.css">
+</head>
+
+<body>
+    <header>
+        <h1 data-string="extName"></h1>
+        <div id="toggle-container">
+            <!-- <div id="toggle">
+                <div class="toggle" id="toggle-on">ON</div>
+                <div class="toggle" id="toggle-off">OFF</div>
+                <div id="toggle-bg" class="toggle"></div>    
+            </div> -->
+
+            <div id="toggle">
+                <div class="toggle" id="toggle-on">ON</div>
+                <div id="toggle-middle"></div>
+                <div class="toggle" id="toggle-off">OFF</div>
+            </div>
+
+        </div>
+
+    </header>
+
+    <div id="error" class="info">
+        <p>
+            An error occured! Please refresh the page and try again in a few minutes.
+            <br>
+            If the error persists, please contact me at nizioleque@gmail.com including the error message shown below
+        </p>
+        <p>
+            Error message:
+        </p>
+        <p id="error-msg"></p>
+    </div>
+
+    <div class="info">
+        <p>
+            Some other important information
+        </p>
+    </div>
+
+    <!-- <div id="welcome-short">
+        <a href="https://www.buymeacoffee.com/nizioleque" target="_blank" rel="noopener noreferrer">
+            <button class="btn-support">
+                🍺 Support
+            </button>
+        </a>
+        <a class="storeReviewURL" target="_blank" rel="noopener noreferrer">
+            <button>
+                ⭐ Rate
+            </button>
+        </a>
+        <a class="bugReportURL" target="_blank">
+            <button>
+                📧 Report a bug
+            </button>
+        </a>
+    </div> -->
+
+    <div style="display: none;">
+        <label id="advanced">
+            <input type="checkbox" name="advanced">
+            Show advanced settings
+        </label>
+        <p class="tip">
+            Don't be afraid! They're not that advanced
+        </p>
+    </div>
+
+    <div id="what-to-hide">
+        <h2>What to hide?</h2>
+        <label>
+            <input type="checkbox" name="homepage">
+            <span>Home page recommendations</span>
+        </label>
+        <label>
+            <input type="checkbox" name="menu">
+            <span>Left menu</span>
+        </label>
+        <label>
+            <input type="checkbox" name="sublist">
+            <span>Left menu subscriptions</span>
+        </label>
+        <label>
+            <input type="checkbox" name="logo">
+            <span>Logo button</span>
+        </label>
+        <label>
+            <input type="checkbox" name="search">
+            <span>Searchbox</span>
+        </label>
+        <label>
+            <input type="checkbox" name="notifications">
+            <span>Notifications</span>
+        </label>
+        <label>
+            <input type="checkbox" name="vidstat">
+            <span>Video details</span>
+        </label>
+        <label>
+            <input type="checkbox" name="playlist">
+            <span>Current playlist</span>
+        </label>
+        <label>
+            <input type="checkbox" name="vidautoplay">
+            <span>Autoplay button</span>
+        </label>
+        <label>
+            <input type="checkbox" name="vidright">
+            <span>Next video recommendations (right)</span>
+        </label>
+        <label>
+            <input type="checkbox" name="vidend">
+            <span>Next video recommendations (when video ends)</span>
+        </label>
+        <label>
+            <input type="checkbox" name="comments">
+            <span>Comments</span>
+        </label>
+        <label>
+            <input type="checkbox" name="channelpage">
+            <span>Channel page contents</span>
+        </label>
+    </div>
+
+    <div id="btns-bottom">
+        <a href="https://www.buymeacoffee.com/nizioleque" target="_blank" rel="noopener noreferrer">
+            <button class="btn-support">
+                🍺 Tip
+            </button>
+        </a>
+        ●
+        <a class="storeReviewURL" target="_blank" rel="noopener noreferrer">
+            <button>
+                ⭐ Rate
+            </button>
+        </a>
+        ●
+        <a class="bugReportURL" target="_blank">
+            <button>
+                📧 Report
+            </button>
+        </a>
+    </div>
+
+
+</body>
+
+</html>

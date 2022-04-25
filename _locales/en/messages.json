@@ -1,0 +1,14 @@
+{
+    "extName": {
+        "message": "YouTube Distraction Killer"
+    },
+    "extNameShort": {
+        "message": "YT Distractrion Killer"
+    },
+    "extNameURL": {
+        "message": "youtube-distraction-killer"
+    },
+    "extDescription": {
+        "message": "Remove distracting elements from YouTube's layout"
+    }
+}
